@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHub", "AzureEventHub\AzureEventHub.csproj", "{8A198F48-201E-4CC8-B1BC-19E8A98724BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHub.Sender", "AzureEventHub\AzureEventHub.Sender.csproj", "{8A198F48-201E-4CC8-B1BC-19E8A98724BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventHub.Receiver", "AzureEventHub.Receiver\AzureEventHub.Receiver.csproj", "{61604E43-ED52-46E6-B6FC-E6388850E7C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8A198F48-201E-4CC8-B1BC-19E8A98724BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A198F48-201E-4CC8-B1BC-19E8A98724BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A198F48-201E-4CC8-B1BC-19E8A98724BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61604E43-ED52-46E6-B6FC-E6388850E7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61604E43-ED52-46E6-B6FC-E6388850E7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61604E43-ED52-46E6-B6FC-E6388850E7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61604E43-ED52-46E6-B6FC-E6388850E7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
